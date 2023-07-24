@@ -16,6 +16,9 @@
 		A17EED552A5AEF2E006E4544 /* WheelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EED542A5AEF2E006E4544 /* WheelTests.swift */; };
 		A17EED5F2A5AEF2E006E4544 /* WheelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EED5E2A5AEF2E006E4544 /* WheelUITests.swift */; };
 		A17EED612A5AEF2E006E4544 /* WheelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EED602A5AEF2E006E4544 /* WheelUITestsLaunchTests.swift */; };
+		A17EED702A5AF14D006E4544 /* WheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EED6F2A5AF14D006E4544 /* WheelView.swift */; };
+		A17EED722A5AF158006E4544 /* WheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A17EED712A5AF158006E4544 /* WheelView.xib */; };
+		A17EED762A5B0884006E4544 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17EED752A5B0884006E4544 /* MyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A17EED5A2A5AEF2E006E4544 /* WheelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17EED5E2A5AEF2E006E4544 /* WheelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelUITests.swift; sourceTree = "<group>"; };
 		A17EED602A5AEF2E006E4544 /* WheelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A17EED6F2A5AF14D006E4544 /* WheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelView.swift; sourceTree = "<group>"; };
+		A17EED712A5AF158006E4544 /* WheelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WheelView.xib; sourceTree = "<group>"; };
+		A17EED752A5B0884006E4544 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				A17EED3D2A5AEF2D006E4544 /* AppDelegate.swift */,
 				A17EED3F2A5AEF2D006E4544 /* SceneDelegate.swift */,
 				A17EED412A5AEF2D006E4544 /* ViewController.swift */,
+				A17EED6F2A5AF14D006E4544 /* WheelView.swift */,
+				A17EED752A5B0884006E4544 /* MyButton.swift */,
+				A17EED712A5AF158006E4544 /* WheelView.xib */,
 				A17EED432A5AEF2D006E4544 /* Main.storyboard */,
 				A17EED462A5AEF2E006E4544 /* Assets.xcassets */,
 				A17EED482A5AEF2E006E4544 /* LaunchScreen.storyboard */,
@@ -233,6 +242,7 @@
 			files = (
 				A17EED4A2A5AEF2E006E4544 /* LaunchScreen.storyboard in Resources */,
 				A17EED472A5AEF2E006E4544 /* Assets.xcassets in Resources */,
+				A17EED722A5AF158006E4544 /* WheelView.xib in Resources */,
 				A17EED452A5AEF2D006E4544 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +270,8 @@
 			files = (
 				A17EED422A5AEF2D006E4544 /* ViewController.swift in Sources */,
 				A17EED3E2A5AEF2D006E4544 /* AppDelegate.swift in Sources */,
+				A17EED762A5B0884006E4544 /* MyButton.swift in Sources */,
+				A17EED702A5AF14D006E4544 /* WheelView.swift in Sources */,
 				A17EED402A5AEF2D006E4544 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
